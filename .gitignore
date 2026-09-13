@@ -1,0 +1,21 @@
+.gradle/
+build/
+*/build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+.externalNativeBuild
+.cxx/
+.kotlin/
+captures/
+
+# Signing — never commit keystores or passwords.
+keystore.properties
+*.jks
+*.keystore
+
+# Generated release artifacts and local logs
+*.apk
+*.aab
+*.log

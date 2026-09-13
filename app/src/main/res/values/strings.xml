@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ================================================================ brand -->
+    <string name="app_name">OpenPage</string>
+    <string name="app_tagline">Print and scan, straight from USB.</string>
+    <string name="app_version">Version %1$s</string>
+    <string name="app_publisher">by The QAWSE Institute</string>
+    <string name="app_founder">Founded and developed by Kristian Espedido</string>
+    <string name="app_attribution">OpenPage — The QAWSE Institute — Developed by Kristian Espedido</string>
+
+    <!-- ========================================================== navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_print">Print</string>
+    <string name="nav_scan">Scan</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_about">About</string>
+
+    <!-- ================================================================ home -->
+    <string name="home_greeting">OpenPage</string>
+    <string name="home_section_actions">Start</string>
+    <string name="home_section_recent">Recent jobs</string>
+    <string name="home_no_printer">No printer connected</string>
+    <string name="home_no_printer_hint">Plug in a printer with a USB-C or OTG adapter to begin.</string>
+    <string name="home_no_printer_action">Find a printer</string>
+    <string name="home_printer_details">%1$s · %2$s</string>
+    <string name="home_readiness_unknown">Paper and ink levels are unknown on this connection.</string>
+    <string name="home_action_print">Print a document</string>
+    <string name="home_action_print_hint">PDF, images and text</string>
+    <string name="home_action_scan">Scan a page</string>
+    <string name="home_action_scan_hint">From the scanner glass or your camera</string>
+    <string name="home_action_printers">Manage printers</string>
+    <string name="home_action_printers_hint">Connections, drivers and defaults</string>
+    <string name="home_recent_empty">Nothing printed yet</string>
+    <string name="home_recent_empty_hint">Your print and scan jobs will appear here.</string>
+    <plurals name="home_job_pages">
+        <item quantity="one">%2$d copy · 1 page</item>
+        <item quantity="other">%1$d pages × %2$d</item>
+    </plurals>
+        <string name="home_job_repeat">Print again</string>
+    <string name="home_job_failed_retry">Something went wrong — try again</string>
+    <plurals name="home_job_cancelled">
+        <item quantity="one">Cancelled after 1 page</item>
+        <item quantity="other">Cancelled after %1$d pages</item>
+    </plurals>
+    <string name="home_tips_privacy">OpenPage has no internet permission. Documents never leave your phone.</string>
+
+    <!-- ================================================================ print -->
+    <string name="print_title">Print</string>
+    <string name="print_pick_title">Choose a document</string>
+    <string name="print_pick_hint">PDF, PNG, JPG, WebP, BMP or TXT. Nothing is uploaded — the file stays on your phone.</string>
+    <string name="print_pick_action">Browse files</string>
+    <string name="print_opening">Opening %1$s…</string>
+    <string name="print_open_failed_title">Couldn’t open this file</string>
+    <string name="print_open_failed_hint">The file may be corrupted, protected, or in a format OpenPage can’t read. Nothing was sent to the printer.</string>
+    <string name="print_open_failed_action">Choose another file</string>
+
+    <string name="print_section_document">Document</string>
+    <string name="print_section_paper">Paper</string>
+    <string name="print_section_layout">Layout</string>
+    <string name="print_section_output">Output</string>
+    <string name="print_section_advanced">Advanced</string>
+    <string name="print_advanced_show">Show advanced settings</string>
+    <string name="print_advanced_hide">Hide advanced settings</string>
+
+    <string name="print_paper_size">Paper size</string>
+    <string name="print_page_range">Pages</string>
+    <string name="print_page_range_hint">e.g. 1–3, 5, 8–</string>
+    <string name="print_page_range_all">All pages</string>
+    <plurals name="print_page_range_ok">
+        <item quantity="one">1 page selected</item>
+        <item quantity="other">%1$d pages selected</item>
+    </plurals>
+        <string name="print_page_range_syntax">Use numbers and ranges like 1–3, 5, 8–</string>
+    <plurals name="print_page_range_out_of_range">
+        <item quantity="one">Page beyond %1$d is ignored</item>
+        <item quantity="other">Pages beyond %1$d are ignored</item>
+    </plurals>
+    <string name="print_copies">Copies</string>
+    <string name="print_copies_decrease">Decrease copies</string>
+    <string name="print_copies_increase">Increase copies</string>
+    <string name="print_orientation">Orientation</string>
+    <string name="print_orientation_portrait">Portrait</string>
+    <string name="print_orientation_landscape">Landscape</string>
+    <string name="print_orientation_auto">Automatic</string>
+    <string name="print_color_mode">Color</string>
+    <string name="print_color">Color</string>
+    <string name="print_grayscale">Grayscale</string>
+    <string name="print_black_white">Black &amp; white</string>
+    <string name="print_quality">Quality</string>
+    <string name="print_quality_draft">Draft</string>
+    <string name="print_quality_normal">Normal</string>
+    <string name="print_quality_high">High</string>
+    <string name="print_scaling">Scaling</string>
+    <string name="print_scaling_fit">Fit</string>
+    <string name="print_scaling_fill">Fill</string>
+    <string name="print_scaling_actual">Actual size</string>
+    <string name="print_duplex">Double-sided</string>
+    <string name="print_duplex_off">Off</string>
+    <string name="print_duplex_long">Long edge</string>
+    <string name="print_duplex_short">Short edge</string>
+    <string name="print_margins">Margins</string>
+    <string name="print_margin_none">None</string>
+    <string name="print_margin_narrow">Narrow</string>
+    <string name="print_margin_normal">Normal</string>
+    <string name="print_margin_wide">Wide</string>
+    <string name="print_margin_custom">Custom</string>
+    <string name="print_margin_left">Left</string>
+    <string name="print_margin_right">Right</string>
+    <string name="print_margin_top">Top</string>
+    <string name="print_margin_bottom">Bottom</string>
+    <string name="print_margins_thermal">Receipt paper prints edge to edge.</string>
+    <string name="print_collate">Collate copies</string>
+    <string name="print_collate_hint">Keeps each set together: 1, 2, 3 · 1, 2, 3</string>
+    <string name="print_reverse_order">Print in reverse order</string>
+    <string name="print_reverse_order_hint">Last page first — handy for stacking</string>
+    <string name="print_mirror">Mirror image</string>
+    <string name="print_mirror_hint">For transfer media and iron-on prints</string>
+
+    <string name="print_preview_page">Page %1$d of %2$d</string>
+    <string name="print_preview_previous">Previous page</string>
+    <string name="print_preview_next">Next page</string>
+    <string name="print_preview_generating">Preparing preview…</string>
+    <string name="print_preview_note">The preview reflects your paper, orientation, margins and scaling.</string>
+    <string name="print_txt_renders">Text is paginated to the chosen paper size when printing.</string>
+
+    <string name="print_destination">Printer</string>
+    <string name="print_destination_none_hint">Connect a printer to send this job.</string>
+    <string name="print_destination_choose">Manage</string>
+    <plurals name="print_action_pages">
+        <item quantity="one">Print %1$d page × %2$d copies</item>
+        <item quantity="other">Print %1$d pages × %2$d copies</item>
+    </plurals>
+    <plurals name="print_action_simple">
+        <item quantity="one">Print 1 page</item>
+        <item quantity="other">Print %1$d pages</item>
+    </plurals>
+    <string name="print_action_one">Print</string>
+    <string name="print_confirm_title">Send to printer?</string>
+    <string name="print_confirm_body">%1$s · %2$s · %3$s</string>
+    <string name="print_confirm_duplex">Double-sided</string>
+    <string name="print_confirm_note">The printer starts as soon as transfer begins.</string>
+
+    <string name="print_sending_title">Sending to %1$s</string>
+    <plurals name="print_sending_render">
+        <item quantity="one">Rendering page %1$d of %2$d</item>
+        <item quantity="other">Rendering page %1$d of %2$d</item>
+    </plurals>
+    <plurals name="print_sending_transfer">
+        <item quantity="one">Transferring page %1$d of %2$d</item>
+        <item quantity="other">Transferring page %1$d of %2$d</item>
+    </plurals>
+    <string name="print_sending_copy">Copy %1$d of %2$d</string>
+    <string name="print_sending_cancel">Cancel job</string>
+    <string name="print_sending_cancel_note">Cancellation stops the remaining pages. The page currently transferring may still print.</string>
+
+    <string name="print_done_title">Sent to printer</string>
+    <plurals name="print_done_body">
+        <item quantity="one">%1$s · %2$d page × %3$d copies transferred to %4$s.</item>
+        <item quantity="other">%1$s · %2$d pages × %3$d copies transferred to %4$s.</item>
+    </plurals>
+    <string name="print_done_body_single">%1$s · 1 page transferred to %2$s.</string>
+    <string name="print_done_hint">Give the printer a moment to warm up and finish.</string>
+    <string name="print_another">Print another document</string>
+
+    <string name="print_failed_title">Print didn’t finish</string>
+    <string name="print_failed_no_printer">No printer is attached. Connect one over USB-C or OTG, then try again.</string>
+    <string name="print_failed_permission">USB permission was denied for this printer. Allow access from the Printers screen.</string>
+    <string name="print_failed_transport">The printer stopped responding mid-transfer. Up to %1$d pages may already be printed — check the tray before retrying.</string>
+    <string name="print_failed_transport_none">The printer stopped responding over USB. Re-plug the cable and try again.</string>
+    <string name="print_failed_open">This document could not be read. It may be corrupted or protected. Nothing was printed.</string>
+    <string name="print_failed_render">Something went wrong while preparing a page. The document itself is safe. Try a different quality setting.</string>
+    <string name="print_failed_range">The page range doesn’t match this document. Edit the range and try again.</string>
+    <plurals name="print_failed_cancelled">
+        <item quantity="one">Cancelled. %1$d page was sent before the job stopped.</item>
+        <item quantity="other">Cancelled. %1$d pages were sent before the job stopped.</item>
+    </plurals>
+    <string name="print_failed_cancelled_none">Cancelled. No pages were sent.</string>
+    <string name="print_retry">Try again</string>
+    <string name="print_go_printers">Go to printers</string>
+
+    <!-- ================================================================ scan -->
+    <string name="scan_title">Scan</string>
+    <string name="scan_choose_title">Where should the page come from?</string>
+    <string name="scan_method_glass">Scanner glass</string>
+    <string name="scan_method_glass_hint">Flatbed of your USB printer, if it supports scanning</string>
+    <string name="scan_method_camera">Phone camera</string>
+    <string name="scan_method_camera_hint">Photograph any document, then crop and enhance</string>
+    <string name="scan_camera_explainer">The camera method uses your camera app to photograph the page. OpenPage never keeps photos you discard.</string>
+    <string name="scan_glass_scanning_title">Scanning from %1$s</string>
+    <string name="scan_glass_scanning_hint">The scanner warms up first. This can take a few seconds.</string>
+    <string name="scan_cancel">Cancel scan</string>
+    <string name="scan_processing_title">Processing scan</string>
+    <string name="scan_processing_hint">Flattening the page and applying your adjustments.</string>
+
+    <string name="scan_crop_title">Crop &amp; adjust</string>
+    <string name="scan_crop_hint">Drag the corners to the edges of the page.</string>
+    <string name="scan_crop_use_whole">Use whole photo</string>
+    <string name="scan_crop_reset">Reset corners</string>
+    <string name="scan_enhance">Enhance</string>
+    <string name="scan_enhance_original">Original</string>
+    <string name="scan_enhance_document">Document</string>
+    <string name="scan_enhance_gray">Grayscale</string>
+    <string name="scan_rotate">Rotate 90°</string>
+    <string name="scan_add_page">Add page</string>
+    <string name="scan_done_crop">Done</string>
+    <string name="scan_retake">Retake</string>
+
+    <string name="scan_tray_title">Pages</string>
+    <string name="scan_tray_page">Page %1$d</string>
+    <string name="scan_tray_empty_hint">Captured pages collect here — they survive rotation and app restarts.</string>
+    <string name="scan_page_delete">Remove page %1$d</string>
+    <string name="scan_page_move_earlier">Move page %1$d earlier</string>
+    <string name="scan_page_move_later">Move page %1$d later</string>
+    <string name="scan_page_rotate">Rotate page %1$d</string>
+
+    <plurals name="scan_save">
+        <item quantity="one">Save 1 page</item>
+        <item quantity="other">Save %1$d pages</item>
+    </plurals>
+    <string name="scan_save_saving">Saving…</string>
+    <plurals name="scan_save_done">
+        <item quantity="one">1 page saved to Pictures/OpenPage</item>
+        <item quantity="other">%1$d pages saved to Pictures/OpenPage</item>
+    </plurals>
+    <string name="scan_save_failed">Saving failed — storage may be full or unavailable. Your pages are still in the tray.</string>
+    <string name="scan_share">Share</string>
+    <string name="scan_print">Print pages</string>
+    <string name="scan_discard">Discard session</string>
+    <string name="scan_discard_confirm_title">Discard scanned pages?</string>
+    <plurals name="scan_discard_confirm_body">
+        <item quantity="one">The page in this session will be removed. This can’t be undone.</item>
+        <item quantity="other">All %1$d pages in this session will be removed. This can’t be undone.</item>
+    </plurals>
+
+    <string name="scan_failed_title">Scan didn’t finish</string>
+    <string name="scan_failed_no_scanner">This printer doesn’t expose a scanner over USB. Use the camera method instead.</string>
+    <string name="scan_failed_permission">USB permission was denied. Allow access from the Printers screen, then scan again.</string>
+    <string name="scan_failed_transport">The scanner stopped responding. Check the cable, then try again.</string>
+    <string name="scan_failed_invalid">The scanner answered, but its response wasn’t understood. Try the camera method.</string>
+    <string name="scan_failed_unsupported">The scanner refused this job — the mode or size may be unsupported. Try again or use the camera.</string>
+    <string name="scan_failed_undecodable">The scanned image couldn’t be decoded. Try scanning again.</string>
+    <string name="scan_failed_no_camera">No camera app is available on this phone. Use the scanner glass instead.</string>
+    <string name="scan_failed_cancelled">Scan cancelled. Pages already captured are still in the tray.</string>
+    <string name="scan_retry">Try again</string>
+    <string name="scan_camera_error">The photo could not be read. Nothing was lost — try again.</string>
+
+    <!-- ============================================================ printers -->
+    <string name="printers_title">Printers</string>
+    <string name="printers_section_attached">Attached now</string>
+    <string name="printers_none_attached">Nothing attached</string>
+    <string name="printers_none_hint">Plug in a printer with a USB-C or OTG adapter. Most phones from 2017 onward support this.</string>
+    <string name="printers_driver">Driver: %1$s</string>
+    <string name="printers_driver_generic_reason">Model not in the database — printing with the generic driver.</string>
+    <string name="printers_driver_overridden">Driver overridden for this printer.</string>
+    <string name="printers_status_connected">Connected</string>
+    <string name="printers_status_permission">Permission needed</string>
+    <string name="printers_default">Default</string>
+    <string name="printers_set_default">Set as default</string>
+    <string name="printers_grant">Allow access</string>
+    <string name="printers_test_page">Print test page</string>
+    <string name="printers_test_sending">Sending test page…</string>
+    <string name="printers_test_sent">Test page sent to %1$s.</string>
+    <string name="printers_test_failed">Test page didn’t go through. Try a different driver.</string>
+    <string name="printers_details">Details</string>
+    <string name="printers_details_hide">Hide details</string>
+    <string name="printers_driver_override">Driver override</string>
+    <string name="printers_driver_override_hint">Try another language if output looks wrong.</string>
+    <string name="printers_detail_product">Product</string>
+    <string name="printers_detail_serial">Serial</string>
+    <string name="printers_detail_vid">USB vendor</string>
+    <string name="printers_detail_pid">USB product</string>
+    <string name="printers_detail_class">USB class</string>
+    <string name="printers_detail_transport">Transport</string>
+    <string name="printers_detail_transport_value">USB bulk · %1$d-byte packets</string>
+    <string name="printers_detail_scanner">Scanner</string>
+    <string name="printers_detail_scanner_yes">Available over eSCL</string>
+    <string name="printers_detail_scanner_no">Not available</string>
+    <string name="printers_detail_value_unknown">Unknown</string>
+    <string name="printers_class_printer">Printer (class 7)</string>
+    <string name="printers_class_vendor">Vendor-specific</string>
+
+    <!-- driver labels -->
+    <string name="driver_pcl">HP PCL raster</string>
+    <string name="driver_escpos">ESC/POS thermal</string>
+    <string name="driver_escpr">Epson ESC/P-R</string>
+    <string name="driver_ps">PostScript Level 2</string>
+    <string name="driver_generic">Generic raster</string>
+    <string name="driver_raw">Plain text</string>
+
+    <!-- ============================================================ settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_section_appearance">Appearance</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_system">Follow system</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_section_print">Printing defaults</string>
+    <string name="settings_default_paper">Paper size</string>
+    <string name="settings_default_color">Color</string>
+    <string name="settings_default_quality">Quality</string>
+    <string name="settings_default_duplex">Double-sided</string>
+    <string name="settings_section_behavior">Behavior</string>
+    <string name="settings_keep_awake">Keep screen on while printing</string>
+    <string name="settings_keep_awake_hint">Prevents the phone sleeping mid-transfer</string>
+    <string name="settings_section_data">Data &amp; privacy</string>
+    <string name="settings_privacy_note">OpenPage has no internet access. Documents, scans and printer data never leave your device.</string>
+    <string name="settings_clear_recent">Clear recent jobs</string>
+    <plurals name="settings_clear_recent_hint">
+        <item quantity="one">%1$d entry will be removed</item>
+        <item quantity="other">%1$d entries will be removed</item>
+    </plurals>
+    <string name="settings_clear_confirm_title">Clear recent jobs?</string>
+    <string name="settings_clear_confirm_body">The history list is removed from this phone. Printed pages are unaffected.</string>
+    <string name="settings_section_about_block">About</string>
+    <string name="settings_diagnostics">Diagnostics</string>
+    <string name="settings_diagnostics_hint">Connection and scan reports — for support and verification</string>
+
+    <!-- ========================================================= diagnostics -->
+    <string name="diag_title">Diagnostics</string>
+    <string name="diag_printer_section">Printer connection</string>
+    <string name="diag_no_printer">No printer attached. Diagnostics appear when one is connected.</string>
+    <string name="diag_driver_family">Selected driver family</string>
+    <string name="diag_driver_reason_brand">Chosen from the built-in brand database.</string>
+    <string name="diag_driver_reason_override">Manually overridden by you.</string>
+    <string name="diag_driver_reason_fallback">Unknown model — conservative fallback.</string>
+    <string name="diag_features">Feature expectations</string>
+    <string name="diag_feature_color">Color output</string>
+    <string name="diag_feature_duplex">Duplex</string>
+    <string name="diag_feature_scan">Scanning</string>
+    <string name="diag_feature_yes">Expected</string>
+    <string name="diag_feature_no">Not expected</string>
+    <string name="diag_feature_unknown">Unknown — verify with a test page</string>
+    <string name="diag_interfaces">USB interfaces</string>
+    <string name="diag_interface_row"> #%1$d · %2$s · %3$d endpoints</string>
+    <string name="diag_scan_section">Last scan</string>
+    <string name="diag_scan_none">No scan recorded in this session.</string>
+    <string name="diag_scan_dimensions">Dimensions</string>
+    <string name="diag_scan_resolution">Requested resolution</string>
+    <string name="diag_scan_color">Color mode</string>
+    <string name="diag_scan_size">Transferred</string>
+    <string name="diag_scan_time">Processing time</string>
+    <string name="diag_ms">%1$d ms</string>
+    <string name="diag_bytes">%1$d KB</string>
+    <string name="diag_test_page">Print test page</string>
+    <string name="diag_honesty_note">Feature expectations come from the device class database. They are not a guarantee — the test page verifies what this printer actually accepts.</string>
+
+    <!-- ================================================================ about -->
+    <string name="about_title">About</string>
+    <string name="about_support">Support OpenPage</string>
+    <string name="about_support_hint">Your donation keeps OpenPage independent and ad-free.</string>
+    <string name="about_donate">Donate with PayPal</string>
+    <string name="about_donate_opens">Opens PayPal in your browser</string>
+    <string name="about_thank_you">Thank you for supporting OpenPage.</string>
+
+    <string name="legal_app_description_title">What OpenPage does</string>
+    <string name="legal_app_description">OpenPage turns your phone into a direct printing and scanning station for USB printers. It connects over a USB-C or OTG adapter, renders documents on the phone, and speaks the printer’s own language — no drivers to install, no account, and no internet. Paper sizes, page ranges, margins, duplex, color and quality are all under your control.\n\nOpenPage includes built-in drivers for the major printer languages (PCL, ESC/P-R, ESC/POS, PostScript) and a conservative generic driver for models it doesn’t recognize.</string>
+    <string name="about_company_title">The QAWSE Institute</string>
+    <string name="about_company_blurb">The QAWSE Institute builds quiet, careful tools that respect the people using them. OpenPage is our printing and scanning instrument for everyone who just wants the page to come out right — without accounts, tracking or cloud dependencies.</string>
+    <string name="legal_services_title">Services</string>
+    <string name="legal_services">OpenPage provides document printing, page scanning (via printer glass or phone camera), page setup customization, and printer driver selection — all performed locally on your device.\n\nPrinting and scanning take place entirely over your USB connection. Donations are processed by PayPal on their own platform; OpenPage itself collects nothing.</string>
+    <string name="legal_terms_title">Terms &amp; Conditions</string>
+    <string name="legal_terms">By using OpenPage you agree to these terms.\n\nOpenPage is provided as-is, without warranty of any kind. Printing and scanning depend on your hardware, cables and printer firmware; The QAWSE Institute cannot guarantee output on every model.\n\nYou remain responsible for the documents you print and scan, and for respecting the rights attached to them.\n\nOpenPage requests USB access solely to communicate with the printer or scanner you connect. It requests no other permissions and makes no network calls.\n\nThese terms are governed by the laws applicable in the developer’s jurisdiction, without prejudice to your statutory consumer rights.</string>
+    <string name="legal_legal_title">Legal</string>
+    <string name="legal_legal">OpenPage and its source artwork are the work of The QAWSE Institute. The OpenPage name and mark belong to their author.\n\nPrinter command languages referenced in the drivers (PCL, PostScript, ESC/POS, ESC/P-R, eSCL) are the properties of their respective owners and are implemented here as interoperable protocols, not affiliated products.\n\nNo Apple, Google, printer-manufacturer or other third-party trademarks are claimed. PayPal is used only via its public link and is not affiliated with OpenPage.</string>
+    <string name="legal_licenses_title">Licenses</string>
+    <string name="legal_licenses">OpenPage original app code: Copyright © 2026 The QAWSE Institute. Developed and published by Kristian Espedido, Founder and current CEO of The QAWSE Institute / QAWSE Corp. The app code is released under the MIT License, which permits use, modification and redistribution subject to retaining its notices.\n\nInter typeface by The Inter Project Authors — used under the SIL Open Font License 1.1, bundled with its license text.\n\nAndroidX, Jetpack Compose and the Android Support Libraries are © The Android Open Source Project, used under the Apache License 2.0.\n\nKotlin is © JetBrains, used under the Apache License 2.0.\n\nThe full text of each license accompanies the source distribution.</string>
+    <string name="legal_credits_title">Author credits</string>
+    <string name="legal_credits">OpenPage — The QAWSE Institute / QAWSE Corp\nAuthored and published by Kristian Espedido, Founder and current CEO\n\nDesign, engineering, testing and documentation: Kristian Espedido.\n\nTypeface: Inter by The Inter Project Authors. Built on Android Jetpack — with gratitude to its authors.</string>
+
+    <!-- ============================================================ generic -->
+    <string name="action_back">Back</string>
+    <string name="action_close">Close</string>
+    <string name="action_more">More</string>
+    <string name="action_less">Less</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_keep">Keep</string>
+    <string name="action_discard">Discard</string>
+    <string name="action_clear">Clear</string>
+    <string name="a11y_selected">Selected</string>
+    <string name="a11y_job_status_ok">Completed</string>
+    <string name="a11y_job_status_failed">Failed</string>
+    <string name="a11y_job_status_cancelled">Cancelled</string>
+</resources>

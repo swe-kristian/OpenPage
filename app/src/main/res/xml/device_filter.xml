@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- USB printer class devices (any brand) -->
+    <usb-device class="7" />
+
+    <!-- Epson -->
+    <usb-device vendor-id="1204" />
+    <!-- Hewlett-Packard -->
+    <usb-device vendor-id="1008" />
+    <!-- Canon -->
+    <usb-device vendor-id="1193" />
+    <!-- Brother -->
+    <usb-device vendor-id="1273" />
+    <!-- Samsung -->
+    <usb-device vendor-id="1256" />
+    <!-- Xerox -->
+    <usb-device vendor-id="1768" />
+    <!-- Dell -->
+    <usb-device vendor-id="16668" />
+    <!-- Konica Minolta -->
+    <usb-device vendor-id="4907" />
+    <!-- Kyocera / Kyocera Document Solutions -->
+    <usb-device vendor-id="1154" />
+    <!-- Lexmark -->
+    <usb-device vendor-id="1085" />
+    <!-- Ricoh -->
+    <usb-device vendor-id="1482" />
+    <!-- Sharp -->
+    <usb-device vendor-id="1245" />
+    <!-- Toshiba / Toshiba TEC -->
+    <usb-device vendor-id="2356" />
+    <!-- Oki / Oki Data -->
+    <usb-device vendor-id="1570" />
+    <!-- Zebra (thermal) -->
+    <usb-device vendor-id="2655" />
+    <!-- DYMO (label) -->
+    <usb-device vendor-id="2338" />
+    <!-- Citizen (thermal) -->
+    <usb-device vendor-id="7568" />
+    <!-- Bixolon (thermal) -->
+    <usb-device vendor-id="5380" />
+</resources>
